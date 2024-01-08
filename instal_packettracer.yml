@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  become: true
+  tasks: 
+  
+  -name: install of packet tracer 8.2.1
+  deb: https://archive.org/download/cisco-packet-tracer-821-ubuntu-64bit/CiscoPacketTracer_821_Ubuntu_64bit.deb
